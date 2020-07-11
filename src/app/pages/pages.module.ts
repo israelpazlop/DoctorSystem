@@ -9,6 +9,7 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncrementerComponent } from '../components/incrementer/incrementer.component';
 import { ChartsModule } from 'ng2-charts';
 import { ChartDoughnutComponent } from '../components/chart-doughnut/chart-doughnut.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -18,6 +19,7 @@ import { ChartDoughnutComponent } from '../components/chart-doughnut/chart-dough
         Graficas1Component,
         IncrementerComponent,
         ChartDoughnutComponent,
+        AccountSettingsComponent,
     ],
     exports: [
         PagesComponent,
