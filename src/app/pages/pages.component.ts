@@ -9,11 +9,9 @@ declare function init_plugins();
   ]
 })
 export class PagesComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
     init_plugins();
   }
-
 }
